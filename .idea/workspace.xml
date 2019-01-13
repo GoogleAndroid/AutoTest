@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b071442-d11c-4c3c-aa84-914f17fe9ffb" name="Default Changelist" comment="" />
+    <list default="true" id="1b071442-d11c-4c3c-aa84-914f17fe9ffb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/eagle/testcase/TestBankInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eagle/testcase/TestBankInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.eagle.testcase.TestBankInfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.eagle.testcase.TestBankInfo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.eagle.testcase.TestBankInfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.eagle.testcase.TestBankInfo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/eagle/testcase/TestBankInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/eagle/testcase/TestBankInfo.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +49,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="5527" />
+          <entry key="java" value="5616" />
           <entry key="properties" value="93" />
           <entry key="txt" value="45" />
           <entry key="xml" value="571" />
@@ -51,7 +57,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5527" />
+          <entry key="JAVA" value="5616" />
           <entry key="PLAIN_TEXT" value="49" />
           <entry key="Properties" value="93" />
           <entry key="XML" value="571" />
@@ -61,14 +67,14 @@
         <counts>
           <entry key="java" value="37" />
           <entry key="pom" value="2" />
-          <entry key="properties" value="4" />
+          <entry key="properties" value="6" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="37" />
-          <entry key="Properties" value="4" />
+          <entry key="Properties" value="6" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -82,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/eagle/testcase/TestBankInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="394">
+              <caret line="343" column="34" selection-start-line="343" selection-start-column="34" selection-end-line="343" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1394#1395#0" expanded="true" />
@@ -109,6 +115,24 @@
                 <element signature="e#13939#13940#0" expanded="true" />
                 <element signature="e#13985#13986#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/config/application_dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/config/application_test.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -184,7 +208,11 @@
       <find>Length of</find>
       <find>account_number</find>
       <find>system</find>
+      <find>aba</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -218,11 +246,6 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="workOffline" value="true" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -240,6 +263,7 @@
     <option name="width" value="1440" />
     <option name="height" value="804" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -338,7 +362,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547356703980" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547377314560" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -373,8 +397,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBankInfo._payment_method_is_mandatory">
-    <configuration name="TestBankInfo._aba_is_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestBankInfo._aba_is_mandatory">
+    <configuration name="TestBankInfo._aba_is_mandatory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTest" />
       <extension name="coverage">
         <pattern>
@@ -384,7 +408,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.eagle.testcase" />
       <option name="MAIN_CLASS_NAME" value="com.eagle.testcase.TestBankInfo" />
-      <option name="METHOD_NAME" value="_aba_is_invalid" />
+      <option name="METHOD_NAME" value="_aba_is_mandatory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBankInfo._bsb_is_mandatory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eagle.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eagle.testcase" />
+      <option name="MAIN_CLASS_NAME" value="com.eagle.testcase.TestBankInfo" />
+      <option name="METHOD_NAME" value="_bsb_is_mandatory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBankInfo._cn_account_number_is_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eagle.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eagle.testcase" />
+      <option name="MAIN_CLASS_NAME" value="com.eagle.testcase.TestBankInfo" />
+      <option name="METHOD_NAME" value="_cn_account_number_is_valid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -406,22 +462,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBankInfo._swift_country_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutoTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eagle.testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.eagle.testcase" />
-      <option name="MAIN_CLASS_NAME" value="com.eagle.testcase.TestBankInfo" />
-      <option name="METHOD_NAME" value="_swift_country_invalid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestBankInfo._swift_length_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTest" />
       <extension name="coverage">
@@ -433,22 +473,6 @@
       <option name="PACKAGE_NAME" value="com.eagle.testcase" />
       <option name="MAIN_CLASS_NAME" value="com.eagle.testcase.TestBankInfo" />
       <option name="METHOD_NAME" value="_swift_length_invalid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBankInfo._swift_length_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutoTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eagle.testcase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.eagle.testcase" />
-      <option name="MAIN_CLASS_NAME" value="com.eagle.testcase.TestBankInfo" />
-      <option name="METHOD_NAME" value="_swift_length_valid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -502,19 +526,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestBankInfo._aba_is_invalid" />
-      <item itemvalue="JUnit.TestBankInfo._swift_country_invalid" />
+      <item itemvalue="JUnit.TestBankInfo._cn_account_number_is_valid" />
       <item itemvalue="JUnit.TestBankInfo._swift_length_invalid" />
-      <item itemvalue="JUnit.TestBankInfo._swift_length_valid" />
+      <item itemvalue="JUnit.TestBankInfo._aba_is_mandatory" />
+      <item itemvalue="JUnit.TestBankInfo._bsb_is_mandatory" />
       <item itemvalue="JUnit.TestBankInfo._payment_method_is_mandatory" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBankInfo._aba_is_mandatory" />
         <item itemvalue="JUnit.TestBankInfo._payment_method_is_mandatory" />
-        <item itemvalue="JUnit.TestBankInfo._swift_length_valid" />
+        <item itemvalue="JUnit.TestBankInfo._bsb_is_mandatory" />
         <item itemvalue="JUnit.TestBankInfo._swift_length_invalid" />
-        <item itemvalue="JUnit.TestBankInfo._swift_country_invalid" />
-        <item itemvalue="JUnit.TestBankInfo._aba_is_invalid" />
+        <item itemvalue="JUnit.TestBankInfo._cn_account_number_is_valid" />
       </list>
     </recent_temporary>
   </component>
@@ -533,52 +557,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBankInfo__aba_is_valid - 2019.01.12 at 18h 18m 34s.xml">
-      <configuration name="TestBankInfo._aba_is_valid" configurationId="JUnit" />
+    <history-entry file="TestBankInfo__cn_account_number_is_valid - 2019.01.13 at 16h 46m 41s.xml">
+      <configuration name="TestBankInfo._cn_account_number_is_valid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBankInfo__aba_is_invalid - 2019.01.12 at 18h 19m 09s.xml">
-      <configuration name="TestBankInfo._aba_is_invalid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestBankInfo__aba_is_invalid - 2019.01.12 at 18h 19m 38s.xml">
-      <configuration name="TestBankInfo._aba_is_invalid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestBankInfo__aba_is_invalid - 2019.01.12 at 18h 20m 18s.xml">
-      <configuration name="TestBankInfo._aba_is_invalid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestBankInfo__swift_country_invalid - 2019.01.12 at 18h 22m 44s.xml">
-      <configuration name="TestBankInfo._swift_country_invalid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestBankInfo__swift_length_invalid - 2019.01.12 at 18h 26m 05s.xml">
+    <history-entry file="TestBankInfo__swift_length_invalid - 2019.01.13 at 16h 55m 35s.xml">
       <configuration name="TestBankInfo._swift_length_invalid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBankInfo__swift_length_invalid - 2019.01.12 at 21h 21m 11s.xml">
+    <history-entry file="TestBankInfo__swift_length_invalid - 2019.01.13 at 16h 56m 04s.xml">
       <configuration name="TestBankInfo._swift_length_invalid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBankInfo__swift_length_invalid - 2019.01.12 at 21h 23m 17s.xml">
+    <history-entry file="TestBankInfo__swift_length_invalid - 2019.01.13 at 16h 57m 00s.xml">
       <configuration name="TestBankInfo._swift_length_invalid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBankInfo__swift_length_valid - 2019.01.12 at 21h 26m 06s.xml">
-      <configuration name="TestBankInfo._swift_length_valid" configurationId="JUnit" />
+    <history-entry file="TestBankInfo__aba_is_mandatory - 2019.01.13 at 17h 07m 36s.xml">
+      <configuration name="TestBankInfo._aba_is_mandatory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBankInfo__payment_method_is_mandatory - 2019.01.13 at 12h 58m 39s.xml">
+    <history-entry file="TestBankInfo__aba_is_mandatory - 2019.01.13 at 17h 08m 31s.xml">
+      <configuration name="TestBankInfo._aba_is_mandatory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBankInfo__bsb_is_mandatory - 2019.01.13 at 17h 09m 31s.xml">
+      <configuration name="TestBankInfo._bsb_is_mandatory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBankInfo__aba_is_mandatory - 2019.01.13 at 17h 09m 42s.xml">
+      <configuration name="TestBankInfo._aba_is_mandatory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBankInfo__payment_method_is_mandatory - 2019.01.13 at 17h 10m 13s.xml">
       <configuration name="TestBankInfo._payment_method_is_mandatory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBankInfo__aba_is_mandatory - 2019.01.13 at 17h 11m 46s.xml">
+      <configuration name="TestBankInfo._aba_is_mandatory" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44488000" />
+    <option name="totallyTimeSpent" value="48780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3297568" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49910232" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49910232" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="6" sideWeight="0.50089765" side_tool="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32891566" />
@@ -586,13 +609,13 @@
       <window_info anchor="bottom" id="Spring" order="5" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.3433735" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.3433735" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.3297568" />
       <window_info anchor="right" id="Database" order="2" weight="0.3297568" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
@@ -608,6 +631,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/eagle/testcase/TestBankInfo.java</url>
+          <line>299</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/1.5.2.RELEASE/spring-boot-dependencies-1.5.2.RELEASE.pom">
@@ -648,20 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/application_test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/application_dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="54" selection-start-column="54" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -860,10 +881,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/application_dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/application_test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/eagle/testcase/TestBankInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="394">
+          <caret line="343" column="34" selection-start-line="343" selection-start-column="34" selection-end-line="343" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1394#1395#0" expanded="true" />
