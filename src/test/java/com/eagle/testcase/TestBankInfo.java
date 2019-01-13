@@ -69,7 +69,6 @@ public class TestBankInfo {
     @Test
     public void _payment_method_is_mandatory() {
         httpRequest.setParameter("{\n" +
-                "  \"payment_method\": \"\",\n" +
                 "  \"bank_country_code\": \"US\",\n" +
                 "  \"account_name\": \"John Smith\",\n" +
                 "  \"account_number\": \"123\",\n" +
@@ -302,7 +301,6 @@ public class TestBankInfo {
                 "  \"account_name\": \"eagle\",\n" +
                 "  \"account_number\": \"12345678\",\n" +
                 "  \"swift_code\": \"ICBCUSBJ\",\n" +
-                "  \"bsb\": \"\",\n" +
                 "  \"aba\": \"11122233A\"\n" +
                 "}");
         result = httpRequest.getResponseByPostMethod();
@@ -319,10 +317,23 @@ public class TestBankInfo {
         verifyInvalidbsb(bsb_invalid,"{\"error\":\"Length of 'bsb' should be 6\"}");
     }
     @Test
+    public void _aba_is_mandatory() {
+        httpRequest.setParameter("{\n" +
+                "  \"payment_method\": \"LOCAL\",\n" +
+                "  \"bank_country_code\": \"US\",\n" +
+                "  \"account_name\": \"eagle\",\n" +
+                "  \"account_number\": \"12345678\",\n" +
+                "  \"swift_code\": \"ICBCUSBJ\",\n" +
+                "  \"bsb\": \"\"\n" +
+                "}");
+        result = httpRequest.getResponseByPostMethod();
+        _400Verify(result);
+        Assert.assertEquals("{\"error\":\"'aba' is required when bank country code is 'US'\"}",result.getContent());
+    }
+    @Test
     public void _aba_is_valid() {
         verifyValidaba(aba_valid);
     }
-
     @Test
     public void _aba_is_invalid() {
         verifyInvalidaba(aba_invalid,"{\"error\":\"Length of 'aba' should be 9\"}");
