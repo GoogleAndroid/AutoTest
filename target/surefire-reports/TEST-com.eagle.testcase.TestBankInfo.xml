@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.eagle.testcase.TestBankInfo" time="41.496" tests="27" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="idea.version" value="2018.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/zhujichao/Projects/git/auto"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/zhujichao/Projects/git/auto"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/5p/1ws_q2fs7x9_ckwybgj7sd2r0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/zhujichao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.2"/>
+    <property name="user.home" value="/Users/zhujichao"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="zhujichao"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.1 test -Pdev"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="/Users/zhujichao/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="_au_account_number_is_invalid" classname="com.eagle.testcase.TestBankInfo" time="1.149">
+    <failure message="expected:&lt;...r should be between [6 and 9 when bank_country_code is &apos;AU]&apos;&quot;}&gt; but was:&lt;...r should be between [7 and 11 when bank_country_code is &apos;US]&apos;&quot;}&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<...r should be between [6 and 9 when bank_country_code is 'AU]'"}> but was:<...r should be between [7 and 11 when bank_country_code is 'US]'"}>
+	at com.eagle.testcase.TestBankInfo.verifyInvalidAccount(TestBankInfo.java:374)
+	at com.eagle.testcase.TestBankInfo._au_account_number_is_invalid(TestBankInfo.java:285)
+]]></failure>
+    <system-err><![CDATA[一月 13, 2019 1:00:20 下午 org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+信息: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+一月 13, 2019 1:00:20 下午 org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+信息: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+一月 13, 2019 1:00:20 下午 org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+信息: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+一月 13, 2019 1:00:20 下午 org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+信息: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+一月 13, 2019 1:00:20 下午 org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+信息: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@71318ec4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@21213b92, org.springframework.test.context.support.DirtiesContextTestExecutionListener@a67c67e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3327bd23, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4e1d422d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@66480dd7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@52a86356, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5ce81285, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@78c03f1f]
+一月 13, 2019 1:00:20 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from class path resource [spring-context.xml]
+一月 13, 2019 1:00:20 下午 org.springframework.context.support.GenericApplicationContext prepareRefresh
+信息: Refreshing org.springframework.context.support.GenericApplicationContext@63e2203c: startup date [Sun Jan 13 13:00:20 CST 2019]; root of context hierarchy
+一月 13, 2019 1:00:20 下午 com.eagle.testcase.TestBankInfo startTest
+信息: Start:*********_au_account_number_is_invalid*********
+一月 13, 2019 1:00:21 下午 com.eagle.testcase.TestBankInfo afterTest
+信息: End:***********_au_account_number_is_invalid*********
+]]></system-err>
+  </testcase>
+  <testcase name="_account_name_is_invalid" classname="com.eagle.testcase.TestBankInfo" time="1.515"/>
+  <testcase name="_swift_country_invalid" classname="com.eagle.testcase.TestBankInfo" time="2.36"/>
+  <testcase name="_account_name_is_valid" classname="com.eagle.testcase.TestBankInfo" time="2.35"/>
+  <testcase name="_account_number_is_mandatory" classname="com.eagle.testcase.TestBankInfo" time="0.719"/>
+  <testcase name="_cn_account_number_is_invalid" classname="com.eagle.testcase.TestBankInfo" time="0.721">
+    <failure message="expected:&lt;...r should be between [8 and 20 when bank_country_code is &apos;CN]&apos;&quot;}&gt; but was:&lt;...r should be between [7 and 11 when bank_country_code is &apos;US]&apos;&quot;}&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<...r should be between [8 and 20 when bank_country_code is 'CN]'"}> but was:<...r should be between [7 and 11 when bank_country_code is 'US]'"}>
+	at com.eagle.testcase.TestBankInfo.verifyInvalidAccount(TestBankInfo.java:374)
+	at com.eagle.testcase.TestBankInfo._cn_account_number_is_invalid(TestBankInfo.java:295)
+]]></failure>
+    <system-err><![CDATA[一月 13, 2019 1:00:28 下午 com.eagle.testcase.TestBankInfo startTest
+信息: Start:*********_cn_account_number_is_invalid*********
+一月 13, 2019 1:00:29 下午 com.eagle.testcase.TestBankInfo afterTest
+信息: End:***********_cn_account_number_is_invalid*********
+]]></system-err>
+  </testcase>
+  <testcase name="_us_account_number_is_invalid" classname="com.eagle.testcase.TestBankInfo" time="0.755">
+    <failure message="expected:&lt;...r should be between [1 and 17] when bank_country_c...&gt; but was:&lt;...r should be between [7 and 11] when bank_country_c...&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<...r should be between [1 and 17] when bank_country_c...> but was:<...r should be between [7 and 11] when bank_country_c...>
+	at com.eagle.testcase.TestBankInfo.verifyInvalidAccount(TestBankInfo.java:374)
+	at com.eagle.testcase.TestBankInfo._us_account_number_is_invalid(TestBankInfo.java:275)
+]]></failure>
+    <system-err><![CDATA[一月 13, 2019 1:00:29 下午 com.eagle.testcase.TestBankInfo startTest
+信息: Start:*********_us_account_number_is_invalid*********
+一月 13, 2019 1:00:30 下午 com.eagle.testcase.TestBankInfo afterTest
+信息: End:***********_us_account_number_is_invalid*********
+]]></system-err>
+  </testcase>
+  <testcase name="_bsb_is_valid" classname="com.eagle.testcase.TestBankInfo" time="2.5"/>
+  <testcase name="_swift_country_valid" classname="com.eagle.testcase.TestBankInfo" time="2.256"/>
+  <testcase name="_bsb_is_invalid" classname="com.eagle.testcase.TestBankInfo" time="1.477"/>
+  <testcase name="_au_account_number_is_valid" classname="com.eagle.testcase.TestBankInfo" time="2.517"/>
+  <testcase name="_payment_method_is_valid" classname="com.eagle.testcase.TestBankInfo" time="1.555"/>
+  <testcase name="_aba_is_valid" classname="com.eagle.testcase.TestBankInfo" time="2.441"/>
+  <testcase name="_us_account_number_is_valid" classname="com.eagle.testcase.TestBankInfo" time="2.336"/>
+  <testcase name="_country_code_is_mandatory" classname="com.eagle.testcase.TestBankInfo" time="0.715"/>
+  <testcase name="_swift_length_valid" classname="com.eagle.testcase.TestBankInfo" time="1.63">
+    <failure message="实际结果：{&quot;error&quot;:&quot;Length of &apos;swift_code&apos; should be either 8 or 11&quot;}" type="java.lang.AssertionError">java.lang.AssertionError: 实际结果：{"error":"Length of 'swift_code' should be either 8 or 11"}
+	at com.eagle.testcase.TestBankInfo._200Verify(TestBankInfo.java:462)
+	at com.eagle.testcase.TestBankInfo.verifySwiftCountry(TestBankInfo.java:357)
+	at com.eagle.testcase.TestBankInfo._swift_length_valid(TestBankInfo.java:262)
+</failure>
+    <system-err><![CDATA[一月 13, 2019 1:00:45 下午 com.eagle.testcase.TestBankInfo startTest
+信息: Start:*********_swift_length_valid*********
+一月 13, 2019 1:00:47 下午 com.eagle.testcase.TestBankInfo afterTest
+信息: End:***********_swift_length_valid*********
+]]></system-err>
+  </testcase>
+  <testcase name="_country_code_is_valid" classname="com.eagle.testcase.TestBankInfo" time="2.354"/>
+  <testcase name="_swift_length_invalid" classname="com.eagle.testcase.TestBankInfo" time="2.246">
+    <failure message="实际结果：{&quot;success&quot;:&quot;Bank details saved&quot;}" type="java.lang.AssertionError">java.lang.AssertionError: 实际结果：{"success":"Bank details saved"}
+	at com.eagle.testcase.TestBankInfo._400Verify(TestBankInfo.java:457)
+	at com.eagle.testcase.TestBankInfo.verifySwiftCountryInvalid(TestBankInfo.java:389)
+	at com.eagle.testcase.TestBankInfo._swift_length_invalid(TestBankInfo.java:266)
+</failure>
+    <system-err><![CDATA[一月 13, 2019 1:00:49 下午 com.eagle.testcase.TestBankInfo startTest
+信息: Start:*********_swift_length_invalid*********
+一月 13, 2019 1:00:52 下午 com.eagle.testcase.TestBankInfo afterTest
+信息: End:***********_swift_length_invalid*********
+]]></system-err>
+  </testcase>
+  <testcase name="_aba_is_invalid" classname="com.eagle.testcase.TestBankInfo" time="2.472"/>
+  <testcase name="_bsb_is_mandatory" classname="com.eagle.testcase.TestBankInfo" time="0.937"/>
+  <testcase name="_swift_code_is_mandatory02" classname="com.eagle.testcase.TestBankInfo" time="0.72"/>
+  <testcase name="_payment_method_is_mandatory" classname="com.eagle.testcase.TestBankInfo" time="0.675"/>
+  <testcase name="_payment_method_is_invalid" classname="com.eagle.testcase.TestBankInfo" time="0.722"/>
+  <testcase name="_account_name_is_mandatory" classname="com.eagle.testcase.TestBankInfo" time="0.803"/>
+  <testcase name="_swift_code_is_mandatory" classname="com.eagle.testcase.TestBankInfo" time="0.726"/>
+  <testcase name="_country_code_is_invalid" classname="com.eagle.testcase.TestBankInfo" time="0.739"/>
+  <testcase name="_cn_account_number_is_valid" classname="com.eagle.testcase.TestBankInfo" time="1.419">
+    <failure message="实际结果：{&quot;error&quot;:&quot;Length of account_number should be between 7 and 11 when bank_country_code is &apos;US&apos;&quot;}" type="java.lang.AssertionError">java.lang.AssertionError: 实际结果：{"error":"Length of account_number should be between 7 and 11 when bank_country_code is 'US'"}
+	at com.eagle.testcase.TestBankInfo._200Verify(TestBankInfo.java:462)
+	at com.eagle.testcase.TestBankInfo.verifyAccount(TestBankInfo.java:342)
+	at com.eagle.testcase.TestBankInfo._cn_account_number_is_valid(TestBankInfo.java:290)
+</failure>
+    <system-err><![CDATA[一月 13, 2019 1:00:59 下午 com.eagle.testcase.TestBankInfo startTest
+信息: Start:*********_cn_account_number_is_valid*********
+一月 13, 2019 1:01:01 下午 com.eagle.testcase.TestBankInfo afterTest
+信息: End:***********_cn_account_number_is_valid*********
+]]></system-err>
+  </testcase>
+</testsuite>
